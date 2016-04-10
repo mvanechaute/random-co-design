@@ -95,15 +95,78 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+  box-sizing: border-box;
+}
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+h1, h2 {
+    color: #fff;
+}
 
+section {
+    margin: 3em 0;
+    padding-left: 1em;
+}
 
+main {
+    width: 100%;
+}
 
+.main_header {
+    background-color: #000;
+    position: fixed;
+    height: 6.25em;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
 
+.main_header h1 {
+    margin: 0;
+    padding: 30px;
+    font-size: 1.75rem;
+}
 
+.main_header i {
+  color: #fff;
+  position: fixed;
+  top: 40px;
+  right: 30px;
+}
 
+.section_opener {
+    background-image: url(../img/purple-bg.jpg);
+    background-size: 5em;
+    background-repeat: none;
+    width: 100%;
+    max-height: height: 50%;
+}
 
+.section_intro {
+    border-bottom: 2px solid #D8D8D8;
+    padding-bottom: 2.5em;  
+}
+
+.grid {
+    border-bottom: 2px solid #D8D8D8;
+    padding-bottom: 2.5em;  
+    overflow: auto;
+}
+
+.project {
+    width: 50%;
+    height: 10em;
+    border: 1px solid red;
+    float: left;
+}
+
+.footer {
+    clear: left;
+}
 
 
 
