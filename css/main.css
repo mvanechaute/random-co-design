@@ -162,24 +162,27 @@ a {
 
 .opener_headline {
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 2em;
 }
 
 .opener_headline h2 {
     font-size: 300%;
     text-align: center;
     line-height: 1;
-    margin-bottom: .5em;
 }
 
 .button {
     font-size: 1.5rem;
     border: 1px solid #fff;
     padding: .5em 1em;
-
-}
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
 
 .button a, a:visited {
     color: #fff;
