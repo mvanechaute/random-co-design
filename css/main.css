@@ -98,24 +98,24 @@ textarea {
 /* Globals */
 
 html {
-		box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 *, *:before, *:after {
-		box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 img {
-		max-width: 100%;
+	max-width: 100%;
 }
 
 h1, h2 {
-		color: #fff;
+	color: #fff;
     margin: 0;
 }
 
 section {
-		margin: 2em 0;
+	margin: 2em 0;
 }
 
 a {
@@ -125,30 +125,30 @@ a {
 /* Header */
 
 .main_header {
-		background-color: #000;
-		position: fixed;
-		height: 5em;
-		width: 100%;
-		top: 0;
-		left: 0;
-    	z-index: 1;
+	background-color: #000;
+	position: fixed;
+	height: 5em;
+	width: 100%;
+	top: 0;
+	left: 0;
+    z-index: 1;
 }
 
 .main_header h1 {
-		padding: 1.1em 1em;
-		font-size: 1.5rem;
+	padding: 1.1em 1em;
+	font-size: 1.5rem;
 }
 
 .main_header i {
-		color: #fff;
-		position: fixed;
-		top: 1.5em;
-		right: 1em;
+	color: #fff;
+	position: fixed;
+	top: 1.5em;
+	right: 1em;
 }
 
 /* Be Random Section */
 
-.section_opener {
+.jumbotron {
     max-height: 25em;
     margin: 5em 0 0 0;
     overflow: hidden;
@@ -156,11 +156,11 @@ a {
     position: relative;
 }
 
-.section_opener img {
+.jumbotron img {
     width: 100%;
 }
 
-.opener_headline {
+.jumbotron_headline {
     position: absolute;
     top: 45%;
     left: 50%;
@@ -168,7 +168,7 @@ a {
     padding: 2em;
 }
 
-.opener_headline h2 {
+.jumbotron_headline h2 {
     font-size: 300%;
     text-align: center;
     line-height: 1;
@@ -197,32 +197,33 @@ a {
 /* About Us */
 
 .section_intro {
-		border-bottom: 2px solid #D8D8D8;
-		padding: 0 1em 2em 1em;  
+	border-bottom: 2px solid #D8D8D8;
+	padding: 0 1em 2em 1em;  
 }
 
 /* GRID */
 
 .grid {
-		border-bottom: 2px solid #D8D8D8;
+	border-bottom: 2px solid #D8D8D8;
     padding: 0 1em 2em 1em;  
-		overflow: auto;
+	overflow: auto;
+	margin-bottom: 0;
 }
 
 .project {
-		width: 50%;
-		border: .05rem solid #fff;
-		float: left;
+	width: 50%;
+	border: .05rem solid #fff;
+	float: left;
     margin: 0;
     background-color: hsla(0,0%,100%,0.75);
     position: relative;
 }
 
 .project:hover {
-    background-color: hsla(0,0%,0%,0);
+    background-color: hsla(0,0%,0%,0.5);
 }
 
-.project a {
+.project h3 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -236,14 +237,14 @@ a {
     width: 100%;
 }
 
-.project p:hover {
+.project:hover h3 {
     color: #fff;
 }
 
 .project_image {
-  position: relative;
-  display: block;
-  z-index: -10;
+ 	position: relative;
+ 	display: block;
+ 	z-index: -10;
 }
 
 /* Footer */
@@ -252,12 +253,6 @@ a {
   text-align: center;
   clear: both;
 }
-
-
-
-
-
-
 
 /* ==========================================================================
 			Helper classes
